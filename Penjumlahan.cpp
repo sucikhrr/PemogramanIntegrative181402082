@@ -2,15 +2,15 @@
 #include <iostream>
 using namespace std;
 
-int penjumlahan()
+int pengurangan()
 {
-int a = 2, b=4, jumlah ;
-jumlah = a +b ;
+int a = 4, b=2, jumlah ;
+jumlah = a - b ;
 return jumlah ;
 }
 
 int main ()
 {
-cout<<"Penjumlahan a dan b = "<<penjumlahan();
+cout<<"Pengurangan a dan b = "<<pengurangan();
 return 0;
 }
